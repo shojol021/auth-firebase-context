@@ -6,7 +6,7 @@ const Home = () => {
     const name = useContext(AuthContext)
     return (
         <div>
-            Name: {name}
+            Name: {name && 'name'}
         </div>
     );
 };
